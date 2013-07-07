@@ -5,27 +5,29 @@ subhead: Let us help you reach your customers.
 sidebar:
     <h4>Adworx Advertising &amp; Media Planning</h4>
 
-    **Physical address:**<br>
+    <p><b>Physical address:</b><br>
     8 Kent Terrace<br>
     (Reception - Level 2)<br>
     Wellington
+    </p>
 
     
-    **Postal address:**<br>
+    <p><b>Postal address:</b><br>
     P.O. Box 27 350<br>
     Wellington
+    </p>
     
 
-    **Business hours:**<br>
+    <p><b>Business hours:</b><br>
     Mainly Monday - Friday:<br>
     9:00 am - 5:00 pm<br>
     (but try us any time)
+    </p>
 
 
-    <b>You can also check us out on Twitter:</b>
+    <p><b>You can also check us out on Twitter:</b></p>
     
-
-    <a href="http://www.twitter.com/adworx">twitter.com/adworx</a>
+    <p><a href="http://www.twitter.com/adworx">twitter.com/adworx</a></p>
 
 ---
 
