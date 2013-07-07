@@ -2,4 +2,9 @@
 <div id="content">
 {{ content }}
 </div>
+<div id="sidebar">
+{% if page.sidebar %}
+{{ page.sidebar }}
+{% endif %}
+</div>
 {% include footer.html %}
