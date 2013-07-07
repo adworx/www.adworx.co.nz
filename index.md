@@ -25,6 +25,7 @@ sidebar:
 
 ---
 
+
 # Effective Advertising Solutions for businesses who think outside the square
 
 Looking for some unique and effective advertising solutions? If an uncomplicated and commonsense approach for reaching customers, or the development of an effective advertising strategy is needed we can help.
