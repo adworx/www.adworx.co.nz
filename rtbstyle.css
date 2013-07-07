@@ -1,0 +1,276 @@
+﻿/*---->>>Style Sheet Rules<<<----*/
+
+/*---->>>Sets HTML Rules<<<----*/
+
+html {
+	height: 100%; 
+	margin-bottom: 1px;}
+	
+body {
+	font: normal 80% Verdana, Verdana, Geneva, sans-serif;
+	background: #ffffff url('images/background.jpg') repeat-x;
+	color: #000000;
+	text-align: center;
+	margin: 0;
+	padding: 0;}
+
+hr {
+	background-color: #66c580;
+	color: #66c580;
+	border: none;
+	height: 1px;
+	width: 100%;}
+
+img {
+	border: none;}
+
+ul {
+	padding: 0;
+	margin: 0 0 20px 20px;
+	list-style: square;}
+
+h1 {
+	color: #66c580;
+	font: bold 22px Georgia, Georgia, serif;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0 0 15px 0;}
+
+h2 {
+	color: #66c580;
+	font: normal 20px Tahoma, Geneva, sans-serif;
+	text-align: left;}
+
+h3 {
+	color: #66c580;
+	font: normal 20px Tahoma, Geneva, sans-serif;
+	text-align: left;}
+
+h4 {
+	color: #a0a0a0;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0 0 10px 0;}
+
+h5 {
+	color: #66c580;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	padding: 0;}
+
+h6 {
+	color: #a0a0a0;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	padding: 0;
+	margin: 0;}
+
+a {
+	color: #4a935d;
+	text-decoration: none;
+	font-weight: bold;}
+
+a:hover {
+	color: #606060;
+	text-decoration: underline;
+	font-weight: bold;}
+	
+/*---->>>Sets Formatting for Form<<<----*/
+
+fieldset {
+	border: 1px dashed #c2c2c2;
+	padding: 5px;
+	margin: 5px 0;}
+
+legend {
+	background-color: #ffffff;
+	color: #66c580;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	padding: 2px 4px;
+	margin: 0;}
+
+form {
+	padding: 5px;
+	text-align: left;
+	margin: 20px 0 5px 0;}
+
+label {
+	width: 150px; 
+	float: left; 
+	text-align: right; 
+	margin: 3px 5px 5px 5px; 
+	clear: both;}
+
+input {
+	margin: 3px 5px 5px 5px; 
+	background-color: #fff; 
+	color: #000; 
+	border: 1px solid #c2c2c2;}
+
+textarea {
+	font: normal 12px Verdana, sans-serif;
+	margin: 3px 5px 5px 5px; 
+	background-color: #fff; 
+	color: #000; 
+	border: 1px solid #c2c2c2;}
+
+.button {
+	text-align: center; 
+	margin: 5px 0 0 170px; 
+	border: none;
+	clear: both;}
+
+/*---->>>Sets ID Rules Used for Page Layout<<<----*/
+#wrapper {
+	background-image: url('images/wrapperbg.jpg');
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;}
+
+#logo {
+	background: #ffffff url('images/logo.jpg') no-repeat;
+	text-align: right;
+	font-size: 80%;
+	color: #606060;
+	height: 40px;
+	padding: 40px 20px 0 0;}
+	
+	#logo a {
+	color: #606060;
+	font-weight: normal;
+	text-decoration: none;}
+	
+	#logo a:hover {
+	color: #606060;
+	font-weight: normal;
+	text-decoration: underline;}
+
+#mainnavigation {
+	float: left;
+	background: url('images/mainnav.jpg') no-repeat;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	color: #a0a0a0;
+	width: 270px;
+	height: 170px;
+	padding: 30px 10px 0 20px;}
+
+	#mainnavigation a {
+	color: #c0c0c0;
+	text-decoration: none;
+	font-weight: bold;}
+	
+	#mainnavigation a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: bold;}
+
+#mainimage {
+	float: right;
+	background: url('images/mainimage.jpg');
+	width: 270px;
+	height: 150px;
+	color: #ffffff;
+	font-size: 120%;
+	padding: 50px 310px 0 20px;}
+
+#shadow {
+	clear: both;
+	height: 20px;}
+
+#content {
+	float: right;
+	width: 565px;
+	line-height: 1.5em;
+	padding: 0 20px 10px 15px;}
+
+#contentwide {
+	width: 860px;
+	line-height: 1.5em;
+	padding: 0 20px 10px 20px;}
+
+#sidebar {
+	font-size: 85%;
+	float: left;
+	width: 265px;
+	padding: 0 15px 10px 20px;}
+
+#footer {
+	clear: both;
+	background: #ffffff url(images/footer.jpg) no-repeat;
+	color: #ffffff;
+	padding: 15px 20px 0 20px;
+	text-align: left;
+	line-height: 1.7em;
+	font-size: 80%;
+	height: 75px;}
+
+#footer a {
+	color: #ffffff;
+	font-weight: normal;}
+	
+#footer a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: normal;}
+	
+#footer p {
+	margin: 0;
+	padding: 3px 0;}
+	
+/*---->>>Sets 2-Column Catalog Display<<<----*/
+
+table {
+	padding: 0px;
+	border-collapse: collapse;
+	font-size: 100%;
+	width: 100%;}
+
+.catalog {
+	padding: 10px;
+	line-height: 1em;
+	text-align: center;
+	vertical-align: top;
+	width: 50%;}
+
+/*---->>>Sets Classes Used for Formatting<<<----*/
+
+p.small {
+	font-size: 80%;}
+
+.box {
+	background: #f6f6f6;
+	border: 1px dashed #c2c2c2;
+	padding: 0 10px 10px 10px;
+	margin: 0 0 20px 0;}
+
+.calendar {
+	text-align: center;
+	margin: 0 0 20px 0;}
+
+.center {
+	text-align: center;}	
+
+.clear {
+	clear: both;}
+	
+.image-border {
+	border: 3px double #c2c2c2;}
+	
+.imageleft-noborder {
+	margin: 0 10px 0 0; 
+	float: left;}
+
+.imageright-noborder {
+	margin: 0 0 0 10px; 
+	float: right;}
+	
+.imageleft-border {
+	margin: 0 10px 0 0; 
+	float: left;
+	border: 3px double #c2c2c2;}
+
+.imageright-border {
+	margin: 0 0 0 10px; 
+	float: right;
+	border: 3px double #c2c2c2;}
