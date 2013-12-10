@@ -6,8 +6,8 @@ sidebar:
     <h4>Adworx Advertising &amp; Media Planning</h4>
 
     <p><b>Physical address:</b><br>
-    8 Kent Terrace<br>
-    (Reception - Level 2)<br>
+    Level 2, Huddart Parker Building<br>
+    1 Post Office Square<br>
     Wellington
     </p>
 
@@ -24,7 +24,6 @@ sidebar:
     (but try us any time)
     </p>
 
-
     <p><b>You can also check us out on Twitter:</b></p>
     
     <p><a href="http://www.twitter.com/adworx">twitter.com/adworx</a></p>
@@ -39,7 +38,7 @@ Contact: Gwyn Jones, Adworx Advertising & Media Planning
 
 Email: [gwyn@adworx.co.nz](mailto:gwyn@adworx.co.nz)
 
-Telephone: (04) 802 3779
+Telephone: (04) 471 7539
 
 Fax: (04) 382 9005
 
