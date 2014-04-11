@@ -5,7 +5,7 @@ subhead: Professional solutions from Adworx.
 sidebar:
     <h4>Creative Partners</h4>
 
-        <p>As media independents our primary focus is on the best placement advice for our clients, but we also work closely with a variety of creative designers should you need to engage a creative partner or develop a creative strategy. We are happy to work in collaboration with relationships you may already have.</p>
+        <p>As media independents our primary focus is on the best placement advice for our clients, but we also work closely with a variety of creative designers should you need to engage a creative partner or develop a creative strategy. We are happy to collaborate with partners/supplier relationships you already have.</p>
 
         <p>Involving media strategy and thinking during the creative development process can save both budget and time.</p>
 
@@ -40,7 +40,7 @@ Importantly, at Adworx we take a collaborative approach with our clients, which 
 
 ## On-line Search Specialists
 
-Looking to optimise keyword search or start a search campaign? We have a dedicated, google accredited, search specialist who can prepare a search strategy for you or help increase the rankings of your current Adwords campaigns.
+Looking to optimise keyword search or start a search campaign? We have a dedicated, google accredited, search specialist who can prepare a search strategy for you or help increase the rankings of your current Adwords campaigns.  
 
 We will provide you with in detailed SEM reports so you can easily view your progress. Help your business be seen by more potential customers <a href="mailto:gwyn@adworx.co.nz?subject=Adwords campaign enquiry">by clicking here</a>.
 
