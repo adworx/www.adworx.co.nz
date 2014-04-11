@@ -40,7 +40,7 @@ Email: [gwyn@adworx.co.nz](mailto:gwyn@adworx.co.nz)
 
 Telephone: (04) 471 7539
 
-Fax: (04) 382 9005
+Cell: 0274 422203
 
 We will get back to you as soon as we can.
 
