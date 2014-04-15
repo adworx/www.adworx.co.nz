@@ -62,5 +62,3 @@ Blind - Red Puppy Appeal. </p>
 We integrated this Appeal with online, adshels and print and raised a record 
 sum for this charity client.
 
-<p>&nbsp;</p>
-<p>&gt;&gt; <a href="puppy_appeal.html">View TV advertisement for RNZFB</a></p>
