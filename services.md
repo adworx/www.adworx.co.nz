@@ -43,4 +43,3 @@ Importantly, at Adworx we take a collaborative approach with our clients, which 
 Looking to optimise keyword search or start a search campaign? We have a dedicated, google accredited, search specialist who can prepare a search strategy for you or help increase the rankings of your current Adwords campaigns.  
 
 We will provide you with in detailed SEM reports so you can easily view your progress. Help your business be seen by more potential customers <a href="mailto:gwyn@adworx.co.nz?subject=Adwords campaign enquiry">by clicking here</a>.
-
