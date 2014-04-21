@@ -7,8 +7,7 @@ sidebar:
 
     <img src="images/bus_hangers_web.jpg">
 
-    <p style="text-align: center">Bus rail hangers for <br>
-        Whitireia Polytechnic</p>
+    <p style="">Bus rail hangers for <br>Whitireia Polytechnic</p>
 
 ---
 

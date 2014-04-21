@@ -5,9 +5,9 @@ subhead: Some inside information for you.
 sidebar:
     <h4>Working hard with small budgets</h4>
 
-    Newspaper & magazine advertising for the Cotton Store:
+    Newspaper & magazine advertising for the Cotton Store
 
-    <div style="text-align: center"><img src="images/cottonstore.jpg"></div>
+    <div style=""><img src="images/cottonstore.jpg"></div>
 
 ---
 
