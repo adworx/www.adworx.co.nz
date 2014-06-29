@@ -5,12 +5,6 @@ subhead: Let us help you reach your customers.
 sidebar:
     <h4>Adworx Advertising &amp; Media Planning</h4>
 
-    <p><b>Physical address:</b><br>
-    Level 2, Huddart Parker Building<br>
-    1 Post Office Square<br>
-    Wellington
-    </p>
-
     
     <p><b>Postal address:</b><br>
     P.O. Box 27 350<br>
@@ -37,8 +31,6 @@ We want to be responsive to your questions or issues. Please help us by sending 
 Contact: Gwyn Jones, Adworx Advertising & Media Planning
 
 Email: [gwyn@adworx.co.nz](mailto:gwyn@adworx.co.nz)
-
-Telephone: (04) 471 7539
 
 Cell: 0274 422203
 
