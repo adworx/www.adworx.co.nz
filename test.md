@@ -12,7 +12,7 @@ sidebar:
         <p>We are happy to share some examples of our media buying with you.&nbsp; Click on the Puppy adshel pic below to view the TV ad for this campaign.&nbsp; Refer to our <a href="portfolio.html">Portfolio</a> page for more samples.<br></p>
 
         <div style="text-align:center;">
-            <a href="puppy_appeal.html"><img src="images/puppy_adshel_sml.jpg"></a>
+            <a href="puppy_appeal.html"><img src="images/coffee-cup.jpeg"></a>
         </div>
 
         <h4><br>Advertising tips &amp; tricks:</h4>
