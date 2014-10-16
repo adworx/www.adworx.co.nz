@@ -5,7 +5,9 @@ subhead: TV, Radio, Newspaper, Outdoor Ads & more.
 sidebar:
     <h4>One of our innovative media placement ideas:</h4>
 
-    <p style="text-align: center">Bus rail hangers for <br>
+    <img src="images/bus_hangers_web.jpg">
+
+    <p>Bus rail hangers for <br>
         Whitireia Polytechnic</p>
 
 ---
