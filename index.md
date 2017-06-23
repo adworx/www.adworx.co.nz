@@ -44,7 +44,7 @@ Adworx Advertising plans focus on engaging your customers with your brand and me
 
 Past campaigns we have worked on include Television advertising (view the [Red Puppy Appeal tv ad](puppy_appeal.html)) newspaper advertising (view our [Cotton Store magazine ad](tips.html) - Tips page) radio campaigns, magazines, (see [Creative NZ ad sample](services.html) - Services page) web advertising and outdoor advertising solutions (see [Whitireia Polytechnic campaign](portfolio.html) - Portfolio).
 
-If you would like to find out more about our products and services please use the link to contact [gwyn@adworx.co.nz](mailto:gwyn@adworx.co.nz) or phone now for a chat <a href="tel:04 471 7539">04 471 7539</a>.
+If you would like to find out more about our products and services please use the link to contact [gwyn@adworx.co.nz](mailto:gwyn@adworx.co.nz) or phone now for a chat <a href="tel:027 442 2203">027 442 2203</a>.
 
 <h3 style="text-align: center">&lt;&lt; Our attitude to ads - it's all about relevance &gt;&gt;</h3>
 
