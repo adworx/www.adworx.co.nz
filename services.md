@@ -20,9 +20,9 @@ sidebar:
 ---
 
 
-# Media Planning Resources<
+# Media Planning Resources
 
-We subscribe to the full range of media planning tools and use the ACNielsen Media Research suite combined with strategic thinking to develop tailored strategies. Media planning is more than just numbers and reach, equally important is the media environment, consumer attitudes, the budget resource, and the personality of the brand.
+We subscribe to the full range of media planning tools and use the <a href="http://www.nielsenmedia.co.nz/">Nielsen Media Research</a> suite combined with strategic thinking to develop tailored strategies. Media planning is more than just numbers and reach, equally important is the media environment, consumer attitudes, the budget resource, and the personality of the brand.
 
 ## Connecting to your brand
 
