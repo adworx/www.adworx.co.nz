@@ -16,7 +16,7 @@ Some companies we have helped with media planning:
 * Banks Group of Companies
 * Tricom Securities
 * Arthritis Foundation
-* ARP (NZ) Ltd - 4Jointz
+* Computer Power Plus
 * Royal NZ Foundation of the Blind
 * Hospice NZ
 * Organics Aotearoa
@@ -25,8 +25,8 @@ Some companies we have helped with media planning:
 * Electricity Efficiency Programme Electricity Commission
 * Smart Payroll
 * Creative NZ
-
-We would also like to welcome <a href="http://www.lecordonbleu.co.nz">Le Cordon Bleu</a> to Adworx.
+* The Dowse Art Museum
+* City Gallery Wellington
 
 <h2><img border="0" src="images/hanger_content_web.jpg" width="173" height="234" align="right" style="border: 3px double #808080" hspace="8" vspace="3">Whitireia Community Polytechnic:</h2>
 
