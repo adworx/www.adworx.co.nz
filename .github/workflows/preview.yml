@@ -1,0 +1,38 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby for Jekyll
+        if: github.event.action != 'closed'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install dependencies
+        if: github.event.action != 'closed'
+        run: |
+          gem install bundler
+          bundle install || true
+
+      - name: Build Jekyll site
+        if: github.event.action != 'closed'
+        run: bundle exec jekyll build -d ./_site
+
+      - name: Deploy PR preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_site
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          action: auto 
