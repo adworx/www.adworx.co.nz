@@ -13,21 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Ruby for Jekyll
+      - name: Build Jekyll site (GitHub Pages compatible)
         if: github.event.action != 'closed'
-        uses: ruby/setup-ruby@v1
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: '3.1'
-
-      - name: Install dependencies
-        if: github.event.action != 'closed'
-        run: |
-          gem install bundler
-          bundle install || true
-
-      - name: Build Jekyll site
-        if: github.event.action != 'closed'
-        run: bundle exec jekyll build -d ./_site
+          source: .
+          destination: ./_site
 
       - name: Deploy PR preview
         uses: rossjrw/pr-preview-action@v1
