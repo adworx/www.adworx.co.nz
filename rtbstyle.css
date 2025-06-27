@@ -16,6 +16,7 @@ html {
 	height: 100%;
 	box-sizing: border-box;
 	font-size: 16px;
+	margin-bottom: 1px;
 }
 
 *, *:before, *:after {
@@ -23,20 +24,22 @@ html {
 }
 
 body {
-	font-family: 'Roboto', Arial, sans-serif;
-	background: var(--bg);
+	font: normal 16px 'Roboto', Verdana, Geneva, sans-serif;
+	background: var(--bg) url('images/background.jpg') repeat-x;
 	color: var(--text);
+	text-align: center;
 	margin: 0;
 	padding: 0;
 	line-height: 1.7;
 }
 
 #wrapper {
-	max-width: 1100px;
-	margin: 2rem auto;
-	background: var(--white);
-	border-radius: 12px;
+	background-image: url('images/wrapperbg.jpg');
+	width: 900px;
+	text-align: left;
+	margin: 0 auto;
 	box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+	border-radius: 12px;
 	overflow: hidden;
 }
 
@@ -76,12 +79,15 @@ nav a:hover {
 }
 
 #mainimage {
-	background: var(--accent);
-	color: var(--primary);
-	padding: 2rem;
-	text-align: center;
-	font-size: 1.3rem;
-	font-weight: 700;
+	float: right;
+	background: url('images/mainimage.jpg');
+	width: 270px;
+	height: 150px;
+	color: var(--white);
+	font-size: 120%;
+	padding: 50px 310px 0 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
 }
 
 #content, #contentwide {
@@ -90,9 +96,13 @@ nav a:hover {
 }
 
 #sidebar {
+	font-size: 85%;
+	float: left;
+	width: 265px;
+	padding: 0 15px 10px 20px;
 	background: var(--bg);
-	padding: 2rem;
 	color: var(--muted);
+	border-radius: 8px;
 }
 
 footer, #footer {
@@ -115,18 +125,41 @@ footer a:hover, #footer a:hover {
 	text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', Arial, sans-serif;
+h1 {
 	color: var(--primary);
-	margin-top: 0;
+	font: bold 2rem 'Roboto', Georgia, serif;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0 0 15px 0;
 }
 
-h1 { font-size: 2.2rem; }
-h2 { font-size: 1.6rem; }
-h3 { font-size: 1.3rem; }
-h4 { font-size: 1.1rem; }
-h5 { font-size: 1rem; }
-h6 { font-size: 0.95rem; }
+h2, h3 {
+	color: var(--secondary);
+	font: normal 1.5rem 'Roboto', Tahoma, Geneva, sans-serif;
+	text-align: left;
+}
+
+h4 {
+	color: var(--muted);
+	font: bold 1.1rem 'Roboto', Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+h5 {
+	color: var(--primary);
+	font: bold 1rem 'Roboto', Arial, Helvetica, sans-serif;
+	padding: 0;
+}
+
+h6 {
+	color: var(--muted);
+	font: bold 0.95rem 'Roboto', Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	padding: 0;
+	margin: 0;
+}
 
 p, ul, ol {
 	margin-bottom: 1.2rem;
@@ -134,12 +167,14 @@ p, ul, ol {
 
 a {
 	color: var(--secondary);
-	text-decoration: underline;
+	text-decoration: none;
+	font-weight: bold;
 	transition: color 0.2s;
 }
 
 a:hover {
-	color: var(--primary);
+	color: var(--accent);
+	text-decoration: underline;
 }
 
 /* Buttons */
@@ -159,26 +194,210 @@ a:hover {
 
 /* Forms */
 input, textarea, select {
-	border: 1px solid #ccc;
+	margin: 3px 5px 5px 5px;
+	background-color: var(--white);
+	color: var(--text);
+	border: 1px solid #c2c2c2;
 	border-radius: 4px;
-	padding: 0.5rem;
 	font-size: 1rem;
-	margin-bottom: 1rem;
-	width: 100%;
-	max-width: 400px;
+	font-family: 'Roboto', Arial, sans-serif;
+	padding: 0.5rem;
+	transition: border-color 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+	border-color: var(--primary);
+	outline: none;
 }
 
 label {
-	display: block;
-	margin-bottom: 0.5rem;
+	width: 150px;
+	float: left;
+	text-align: right;
+	margin: 3px 5px 5px 5px;
+	clear: both;
 	color: var(--primary);
 	font-weight: 500;
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 hr {
+	background-color: var(--secondary);
+	color: var(--secondary);
 	border: none;
-	border-top: 1px solid var(--bg);
+	height: 1px;
+	width: 100%;
 	margin: 2rem 0;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	padding: 0;
+	margin: 0 0 20px 20px;
+	list-style: square;
+}
+
+fieldset {
+	border: 1px dashed #c2c2c2;
+	padding: 5px;
+	margin: 5px 0;
+	border-radius: 6px;
+	background: var(--white);
+}
+
+legend {
+	background-color: var(--white);
+	color: var(--primary);
+	font: bold 1.1rem 'Roboto', Arial, Helvetica, sans-serif;
+	padding: 2px 4px;
+	margin: 0;
+	border-radius: 4px;
+}
+
+form {
+	padding: 5px;
+	text-align: left;
+	margin: 20px 0 5px 0;
+}
+
+#logo {
+	background: var(--white) url('images/logo.jpg') no-repeat;
+	text-align: right;
+	font-size: 80%;
+	color: var(--muted);
+	height: 40px;
+	padding: 40px 20px 0 0;
+}
+
+#logo a {
+	color: var(--muted);
+	font-weight: normal;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+#logo a:hover {
+	color: var(--primary);
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#mainnavigation {
+	float: left;
+	background: url('images/mainnav.jpg') no-repeat;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	color: var(--muted);
+	width: 270px;
+	height: 170px;
+	padding: 30px 10px 0 20px;
+}
+
+#mainnavigation a {
+	color: var(--secondary);
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.2s;
+}
+
+#mainnavigation a:hover {
+	color: var(--accent);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#shadow {
+	clear: both;
+	height: 20px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 3px 0;
+}
+
+/*---->>>Sets 2-Column Catalog Display<<<----*/
+table {
+	padding: 0px;
+	border-collapse: collapse;
+	font-size: 100%;
+	width: 100%;
+}
+
+.catalog {
+	padding: 10px;
+	line-height: 1em;
+	text-align: center;
+	vertical-align: top;
+	width: 50%;
+}
+
+/*---->>>Sets Classes Used for Formatting<<<----*/
+p.small {
+	font-size: 80%;
+}
+
+.box {
+	background: #f6f6f6;
+	border: 1px dashed #c2c2c2;
+	padding: 0 10px 10px 10px;
+	margin: 0 0 20px 0;
+	border-radius: 8px;
+}
+
+.calendar {
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.image-border {
+	border: 3px double #c2c2c2;
+	border-radius: 6px;
+}
+
+.imageleft-noborder {
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+.imageright-noborder {
+	margin: 0 0 0 10px;
+	float: right;
+}
+
+.imageleft-border {
+	margin: 0 10px 0 0;
+	float: left;
+	border: 3px double #c2c2c2;
+	border-radius: 6px;
+}
+
+.imageright-border {
+	margin: 0 0 0 10px;
+	float: right;
+	border: 3px double #c2c2c2;
+	border-radius: 6px;
+}
+
+.emph {
+	color: var(--secondary);
+	font-weight: bold;
+}
+.cen {
+	text-align: center;
 }
 
 /* Responsive Design */
